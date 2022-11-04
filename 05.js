@@ -18,7 +18,8 @@ function pluck(array, propiedad) {
   let nuevoArray = array.map((a) => a[propiedad]);
   return nuevoArray;
   
-
+  //let resultado = array.map((producto)=> {return producto[propiedad] })
+  //return resultado
 
 
 }

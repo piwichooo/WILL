@@ -18,6 +18,8 @@ function numeroSimetrico(num) {
   let original = num.toString();
   let reversed = original.split('').reverse().join('');
   return original === reversed;
+  //let resultado = array.map((producto)=> {return producto[propiedad] })
+  //return resultado
 }
 
 // No modifiques nada debajo de esta linea //

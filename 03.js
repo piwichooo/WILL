@@ -16,9 +16,15 @@ function buscarAmigo(amigos, nombre) {
   // Tu código aca:
 
   
-  let nuevoArray = amigos.map((a) => a[nombre]);
-  return nuevoArray;
-
+ // let nuevoArray = amigos.map((a) => a[nombre]);
+  //return nuevoArray;
+  let amigo
+    for(let i in amigos){
+        if (amigos[i].nombre ==nombre) {
+            amigo =  amigos[i]
+        }
+    }
+    return amigo
 
 
 
