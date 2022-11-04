@@ -11,6 +11,8 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  //return Array.isArray(array) ? array.filter(i => typeof i !== "string") : [];
+    return array = array.filter(i => typeof i !== "string");
 
 }
 
