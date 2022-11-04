@@ -14,7 +14,14 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
+
   
+  let nuevoArray = amigos.map((a) => a[nombre]);
+  return nuevoArray;
+
+
+
+
 }
 
 // No modifiques nada debajo de esta linea //

@@ -14,7 +14,7 @@ function stringMasLarga(strings) {
   // Tu código aca
   return strings.reduce((acc, val) => {
     return (acc.length > val.length) ? acc : val;
-}, '')
+  }, '')
 }
 
 // No modifiques nada debajo de esta linea //
